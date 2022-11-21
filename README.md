@@ -4,6 +4,7 @@ An application developed to test myself built with React, Redux Toolkit, Typescr
 ## Installation
 
 Clone down this repository. You will need node and npm installed globally on your machine.
+
 Installation:
 
 ```bash
