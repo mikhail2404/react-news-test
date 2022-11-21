@@ -5,9 +5,9 @@ export interface AuthState {
   loggedIn: boolean;
 }
 
-export interface  LogInDetails {
+export interface LogInDetails {
   username: string | null;
-  password: string | null
+  password: string | null;
 }
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;

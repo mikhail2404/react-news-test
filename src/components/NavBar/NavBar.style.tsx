@@ -64,12 +64,21 @@ const NavBarLink = styled(NavLink)`
 `;
 
 const LogoutButton = styled.button`
-    background: transparent;
+  background: transparent;
   font-size: inherit;
   font-family: inherit;
   border: none;
   font-weight: 700;
   cursor: pointer;
   color: #fff;
-`
-export { Logo, LogoImg, LogoTitle, NavBarLink, NavBarLinkList, Wrapper, LogoutButton };
+`;
+
+export {
+  Logo,
+  LogoImg,
+  LogoTitle,
+  LogoutButton,
+  NavBarLink,
+  NavBarLinkList,
+  Wrapper
+};

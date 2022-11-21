@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import NavBar from "./components/NavBar/NavBar";
@@ -8,12 +8,10 @@ import Login from "./pages/Login";
 import News from "./pages/News";
 import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
-import {AppWrapper, ContentWrapper} from "./shared/styles/App.style";
+import { AppWrapper, ContentWrapper } from "./shared/styles/App.style";
 import GlobalStyles from "./shared/styles/Global.style";
 
-
 function App() {
-
   return (
     <>
       <GlobalStyles />

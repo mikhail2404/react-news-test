@@ -42,5 +42,6 @@ const ErrorMessage = styled.p`
   font-weight: bold;
   padding: 0.5rem;
   margin-bottom: 1rem;
-`
-export { Form, FormGroup, Input, Label, LoginButton, ErrorMessage };
+`;
+
+export { ErrorMessage, Form, FormGroup, Input, Label, LoginButton };

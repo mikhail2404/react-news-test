@@ -1,1 +1,1 @@
-export const availableLogInDetails = {username: "Admin", password: "12345"}
+export const availableLogInDetails = { username: "Admin", password: "12345" };
