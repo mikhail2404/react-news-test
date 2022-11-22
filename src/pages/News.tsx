@@ -1,7 +1,9 @@
 import React from "react";
 
+import NewsList from "../components/NewsList";
+
 const News = () => {
-  return <div>News coming soon</div>;
+  return <NewsList />;
 };
 
 export default News;

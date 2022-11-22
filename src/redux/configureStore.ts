@@ -13,9 +13,11 @@ import {
 import storage from "redux-persist/lib/storage";
 
 import { authSlice } from "./reducers/authSlice";
+import { newsSlice } from "./reducers/newsSlice";
 
 const reducer = combineReducers({
-  auth: authSlice.reducer
+  auth: authSlice.reducer,
+  news: newsSlice.reducer
 });
 
 const persistConfig = {
