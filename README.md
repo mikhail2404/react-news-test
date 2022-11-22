@@ -1,6 +1,6 @@
 # React news test
 
-An application developed to test myself built with React, Redux Toolkit, Typescript and Styled-Components.
+An application developed to test myself built with React, Redux Toolkit, Typescript, React Query and Styled-Components.
 ## Installation
 
 Clone down this repository. You will need node and npm installed globally on your machine.
